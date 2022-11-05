@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&family=Nunito:wght@400;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Nunito', sans-serif;
+    /* font-size: 20px; */
+}
+body{
+    background-color: #49d39e; 
+
+
+}
+
+.header{
+    background-color: #333C83; 
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    color: white;
+    font-size: 15px;
+    
+}
+
+.header .logo{
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+header .titulo{
+    display:inline-block;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: all 0,4s;
+}
+
+.header .titulo:hover{
+    transform: scale(1.1);
+    color: #F24A72;  
+    transform:  scale(1.2);
+}
+/* bloque 1  */
+.general{
+    background-color: #F24A72;
+    overflow: hidden;
+    /* padding: 7%; */
+    
+}
+.uno{
+    background-color: #EAEA7F;
+    width: 300px;
+    height: 520px;
+    margin-top: 50px;
+    border: 2px solid #333C83;
+    text-align: center;
+    margin: 10px;
+    float: left;
+    margin-left: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: black;
+}
+.general .uno h3{
+    text-align: center;
+    color: black;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    transition: all 0.3s;
+    background-color: #FDAF75;
+    
+    width: 50%;
+    margin: auto;
+}
+.general .uno h3:hover{
+    transform: scale(1.1);
+    color: rgb(0, 0, 0);
+}
+.general .uno #texto{
+    color: black;
+    font-size: 12px;
+    margin: 5px;
+}
+.general .uno img{
+    margin: auto;
+    transition: all 0.3s;
+    border: 2px solid #333C83;
+    width: 156px;
+    height: 186px;
+    margin-top: 5px;
+    margin-top: 13px;
+}
+.general .uno img:hover{
+    transform: scale(1.1);
+}
+.general .uno #boton{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 15px;
+}
+.general .uno #boton:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+.general .uno #var1{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #var1:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #var2{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #var2:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+ /* cajados */
+.general .uno #num1{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #num1:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #num2{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #num2:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+
+}
+
+.general .uno #hallar{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+    border-radius: 3px;
+}
+.general .uno #hallar:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+ /* caja3 */
+
+.general .uno #dato1{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #dato1:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #dato2{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #dato2:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #resrectangulo{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #resrectangulo:hover{
+    transform:  scale(1.1);
+    background-color: rgb(48, 179, 231);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+
+/* caja4 */
+
+.general .uno #dos{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #dos:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #rescuadrado{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #rescuadrado:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+
+/* caja5 */
+
+.general .uno #variable1{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable1:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #variable2{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable2:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #resrombo{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #resrombo:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+
+/* caja6 */
+
+.general .uno #variable3{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable3:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #variable4{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable4:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #rescometa{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #rescometa:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+/* caja7 */
+
+.general .uno #variable5{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable5:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+.general .uno #variable6{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable6:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #variable7{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable7:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #restrapecio{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #restrapecio:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+
+/* caja8 */
+
+.general .uno #variable8{
+    padding: 5px;
+    margin: 10px;
+    transition: all 0.3s;
+}
+.general .uno #variable8:hover{
+    padding: 5px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+.general .uno #rescirculo{
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 18px;
+}
+.general .uno #rescirculo:hover{
+    transform:  scale(1.1);
+    background-color: #1b3039;
+    color: white;
+    border: 1px solid white;
+}
+footer{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
